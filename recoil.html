@@ -1,218 +1,106 @@
-<html lang="en-us"><head>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Recoil</title>
-	<meta name="robots" content="noindex,nofollow">
-	<meta name="description" content="">
-	<meta name="google" content="notranslate">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="webapp/fancade.css">
-	<link rel="icon" href="webapp/favicon.ico">
-	<script src="poki-sdk.js"></script><script src="poki-sdk-core-v2.263.0.js" type="text/javascript" crossorigin="anonymous"></script>
-<script type="text/javascript" async="" src="null.html?https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script><script type="text/javascript" async="" src="null.html?https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script type="text/javascript" async="" src="null.html?https://a.poki.com/prebid/prebid6.12.0.js"></script><script type="text/javascript" async="" src="null.html?https://c.amazon-adsystem.com/aax2/apstag.js"></script><style>
-.pokiSdkContainer {
-	overflow: hidden;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1000;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+<html lang="en-us"><head><script>(function(){(function(){function e(g){this.t={};this.tick=function(h,m,f){var n=f!=void 0?f:(new Date).getTime();this.t[h]=[n,m];if(f==void 0)try{window.console.timeStamp("CSI/"+h)}catch(q){}};this.getStartTickTime=function(){return this.t.start[0]};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var p=d>0?new e(d):new e;window.jstiming={Timer:e,load:p};if(a){var b=a.navigationStart;b>0&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;
+b>0&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))}try{var k=window.top!=window.self,l=window.location.href;a=null;window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&b>0&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b)));a==null&&window.gtbExternal&&(a=k?window.gtbExternal.frameT(l):window.gtbExternal.pageT());a==null&&window.external&&(k?a=window.external.frameT(l):(a=window.external.pageT,c&&b>0&&(c.tick("_tbnd",
+void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))));a&&(window.jstiming.pt=a)}catch(g){}})();}).call(this);
+window["__csi"]={a:false,b:false,c:"enterprise",v:"default",g:null,d:false};if(window.jstiming){window.jstiming.beaconImageReferences_={};window.jstiming.reportCounter_=1;var getTick=function(a,b,c){var d=a.t[b],e=a.t.start;if(d&&(e||c))return d=a.t[b][0],e=c!=void 0?c:e[0],a=d-e,Math.round(a)},getReportUri=function(a,b,c){var d="";window.jstiming.srt&&(d+="&srt="+window.jstiming.srt,delete window.jstiming.srt);window.jstiming.pt&&(d+="&tbsrt="+window.jstiming.pt,delete window.jstiming.pt);try{window.external&&window.external.tran?d+="&tran="+window.external.tran:window.gtbExternal&&
+window.gtbExternal.tran?d+="&tran="+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(d+="&tran="+window.chrome.csi().tran)}catch(m){}var e=window.chrome;if(e&&(e=e.loadTimes)&&typeof e==="function"&&(e=e())){e.wasFetchedViaSpdy&&(d+="&p=s");if(e.wasNpnNegotiated){d+="&npn=1";var f=e.npnNegotiatedProtocol;f&&(d+="&npnv="+(encodeURIComponent||escape)(f))}e.wasAlternateProtocolAvailable&&(d+="&apa=1")}var g=a.t,k=g.start;e=[];f=[];for(var l in g)if(l!="start"&&l.indexOf("_")!=0){var q=g[l][1];
+q?g[q]&&f.push(l+"."+getTick(a,l,g[q][0])):k&&e.push(l+"."+getTick(a,l))}delete g.start;if(b)for(var h in b)d+="&"+h+"="+b[h];(b=c)||(b="https:"==document.location.protocol?"https://csi.gstatic.com/csi":"http://csi.gstatic.com/csi");return a=[b,"?v=3","&s="+(window.jstiming.sn||"opensocial-gadgets")+"&action=",a.name,f.length?"&it="+f.join(","):"",d,"&rt=",e.join(",")].join("")},sendReport_=function(a,b,c){a=getReportUri(a,b,c);if(!a)return"";b=new Image;var d=window.jstiming.reportCounter_++;window.jstiming.beaconImageReferences_[d]=
+b;b.onload=b.onerror=function(){window.jstiming&&delete window.jstiming.beaconImageReferences_[d]};b.src=a;b=null;return a};window.jstiming.report=function(a,b,c){var d=document.visibilityState,e="visibilitychange";d||(d=document.webkitVisibilityState,e="webkitvisibilitychange");if(d=="prerender"){var f=!1,g=function(){if(!f){b?b.prerender="1":b={prerender:"1"};if((document.visibilityState||document.webkitVisibilityState)=="prerender")var k=!1;else sendReport_(a,b,c),k=!0;k&&(f=!0,document.removeEventListener(e,
+g,!1))}};document.addEventListener(e,g,!1);return""}return sendReport_(a,b,c)}};/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var goog=goog||{};goog.global=this||self;goog.exportPath_=function(a,b,c,d){a=a.split(".");d=d||goog.global;a[0]in d||typeof d.execScript=="undefined"||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)if(a.length||b===void 0)d=d[e]&&d[e]!==Object.prototype[e]?d[e]:d[e]={};else if(!c&&goog.isObject(b)&&goog.isObject(d[e]))for(var f in b)b.hasOwnProperty(f)&&(d[e][f]=b[f]);else d[e]=b};goog.CLOSURE_DEFINES=typeof CLOSURE_DEFINES!=="undefined"?CLOSURE_DEFINES:goog.global.CLOSURE_DEFINES;
+goog.CLOSURE_UNCOMPILED_DEFINES=typeof CLOSURE_UNCOMPILED_DEFINES!=="undefined"?CLOSURE_UNCOMPILED_DEFINES:goog.global.CLOSURE_UNCOMPILED_DEFINES;goog.define=function(a,b){return a=b};goog.FEATURESET_YEAR=2012;goog.DEBUG=!0;goog.LOCALE="en";goog.TRUSTED_SITE=!0;goog.DISALLOW_TEST_ONLY_CODE=!goog.DEBUG;goog.ENABLE_CHROME_APP_SAFE_SCRIPT_LOADING=!1;goog.readFlagInternalDoNotUseOrElse=function(a,b){var c=goog.getObjectByName(goog.FLAGS_OBJECT_);a=c&&c[a];return a!=null?a:b};goog.FLAGS_OBJECT_="CLOSURE_FLAGS";
+goog.FLAGS_STAGING_DEFAULT=!0;goog.CLOSURE_TOGGLE_ORDINALS=typeof CLOSURE_TOGGLE_ORDINALS==="object"?CLOSURE_TOGGLE_ORDINALS:goog.global.CLOSURE_TOGGLE_ORDINALS;goog.readToggleInternalDoNotCallDirectly=function(a){var b=goog.CLOSURE_TOGGLE_ORDINALS;a=b&&b[a];return typeof a!=="number"?!!a:!!(goog.TOGGLES_[Math.floor(a/30)]&1<<a%30)};goog.TOGGLE_VAR_="_F_toggles";goog.TOGGLES_=goog.global[goog.TOGGLE_VAR_]||[];goog.LEGACY_NAMESPACE_OBJECT_=goog.global;
+goog.provide=function(a){if(goog.isInModuleLoader_())throw Error("goog.provide cannot be used within a module.");goog.constructNamespace_(a)};goog.constructNamespace_=function(a,b,c){goog.exportPath_(a,b,c,goog.LEGACY_NAMESPACE_OBJECT_)};goog.NONCE_PATTERN_=/^[\w+/_-]+[=]{0,2}$/;goog.getScriptNonce_=function(a){a=(a||goog.global).document;return(a=a.querySelector&&a.querySelector("script[nonce]"))&&(a=a.nonce||a.getAttribute("nonce"))&&goog.NONCE_PATTERN_.test(a)?a:""};goog.VALID_MODULE_RE_=/^[a-zA-Z_$][a-zA-Z0-9._$]*$/;
+goog.module=function(a){if(typeof a!=="string"||!a||a.search(goog.VALID_MODULE_RE_)==-1)throw Error("Invalid module identifier");if(!goog.isInGoogModuleLoader_())throw Error("Module "+a+" has been loaded incorrectly. Note, modules cannot be loaded as normal scripts. They require some kind of pre-processing step. You're likely trying to load a module via a script tag or as a part of a concatenated bundle without rewriting the module. For more info see: https://github.com/google/closure-library/wiki/goog.module:-an-ES6-module-like-alternative-to-goog.provide.");
+if(goog.moduleLoaderState_.moduleName)throw Error("goog.module may only be called once per module.");goog.moduleLoaderState_.moduleName=a};goog.module.get=function(){return null};goog.module.getInternal_=function(){return null};goog.requireDynamic=function(){return null};goog.importHandler_=null;goog.uncompiledChunkIdHandler_=null;goog.setImportHandlerInternalDoNotCallOrElse=function(a){goog.importHandler_=a};
+goog.setUncompiledChunkIdHandlerInternalDoNotCallOrElse=function(a){goog.uncompiledChunkIdHandler_=a};goog.maybeRequireFrameworkInternalOnlyDoNotCallOrElse=function(){};goog.ModuleType={ES6:"es6",GOOG:"goog"};goog.moduleLoaderState_=null;goog.isInModuleLoader_=function(){return goog.isInGoogModuleLoader_()||goog.isInEs6ModuleLoader_()};goog.isInGoogModuleLoader_=function(){return!!goog.moduleLoaderState_&&goog.moduleLoaderState_.type==goog.ModuleType.GOOG};
+goog.isInEs6ModuleLoader_=function(){var a=!!goog.moduleLoaderState_&&goog.moduleLoaderState_.type==goog.ModuleType.ES6;return a?!0:(a=goog.LEGACY_NAMESPACE_OBJECT_.$jscomp)?typeof a.getCurrentModulePath!="function"?!1:!!a.getCurrentModulePath():!1};goog.module.declareLegacyNamespace=function(){goog.moduleLoaderState_.declareLegacyNamespace=!0};
+goog.declareModuleId=function(a){if(goog.moduleLoaderState_)goog.moduleLoaderState_.moduleName=a;else{var b=goog.LEGACY_NAMESPACE_OBJECT_.$jscomp;if(!b||typeof b.getCurrentModulePath!="function")throw Error('Module with namespace "'+a+'" has been loaded incorrectly.');b=b.require(b.getCurrentModulePath());goog.loadedModules_[a]={exports:b,type:goog.ModuleType.ES6,moduleId:a}}};
+goog.setTestOnly=function(a){if(goog.DISALLOW_TEST_ONLY_CODE)throw a=a||"",Error("Importing test-only code into non-debug environment"+(a?": "+a:"."));};goog.forwardDeclare=function(){};goog.getObjectByName=function(a,b){a=a.split(".");b=b||goog.global;for(var c=0;c<a.length;c++)if(b=b[a[c]],b==null)return null;return b};goog.addDependency=function(){};goog.ENABLE_DEBUG_LOADER=!1;goog.logToConsole_=function(a){goog.global.console&&goog.global.console.error(a)};goog.require=function(){};
+goog.requireType=function(){return{}};goog.basePath="";goog.abstractMethod=function(){throw Error("unimplemented abstract method");};goog.addSingletonGetter=function(a){a.instance_=void 0;a.getInstance=function(){if(a.instance_)return a.instance_;goog.DEBUG&&(goog.instantiatedSingletons_[goog.instantiatedSingletons_.length]=a);return a.instance_=new a}};goog.instantiatedSingletons_=[];goog.LOAD_MODULE_USING_EVAL=!0;goog.SEAL_MODULE_EXPORTS=goog.DEBUG;goog.loadedModules_={};
+goog.DEPENDENCIES_ENABLED=!1;goog.ASSUME_ES_MODULES_TRANSPILED=!1;goog.TRUSTED_TYPES_POLICY_NAME="goog";goog.hasBadLetScoping=null;
+goog.loadModule=function(a){var b=goog.moduleLoaderState_;try{goog.moduleLoaderState_={moduleName:"",declareLegacyNamespace:!1,type:goog.ModuleType.GOOG};var c={},d=c;if(typeof a==="function")d=a.call(void 0,d);else if(typeof a==="string")d=goog.loadModuleFromSource_.call(void 0,d,a);else throw Error("Invalid module definition");var e=goog.moduleLoaderState_.moduleName;if(typeof e==="string"&&e){goog.moduleLoaderState_.declareLegacyNamespace?(a=c!==d,goog.constructNamespace_(e,d,a)):goog.SEAL_MODULE_EXPORTS&&
+Object.seal&&typeof d=="object"&&d!=null&&Object.seal(d);var f={exports:d,type:goog.ModuleType.GOOG,moduleId:goog.moduleLoaderState_.moduleName};goog.loadedModules_[e]=f}else throw Error('Invalid module name "'+e+'"');}finally{goog.moduleLoaderState_=b}};goog.loadModuleFromSource_=function(a){eval(goog.CLOSURE_EVAL_PREFILTER_.createScript(arguments[1]));return a};
+goog.normalizePath_=function(a){a=a.split("/");for(var b=0;b<a.length;)a[b]=="."?a.splice(b,1):b&&a[b]==".."&&a[b-1]&&a[b-1]!=".."?a.splice(--b,2):b++;return a.join("/")};goog.loadFileSync_=function(a){if(goog.global.CLOSURE_LOAD_FILE_SYNC)return goog.global.CLOSURE_LOAD_FILE_SYNC(a);try{var b=new goog.global.XMLHttpRequest;b.open("get",a,!1);b.send();return b.status==0||b.status==200?b.responseText:null}catch(c){return null}};
+goog.typeOf=function(a){var b=typeof a;return b!="object"?b:a?Array.isArray(a)?"array":b:"null"};goog.isArrayLike=function(a){var b=goog.typeOf(a);return b=="array"||b=="object"&&typeof a.length=="number"};goog.isDateLike=function(a){return goog.isObject(a)&&typeof a.getFullYear=="function"};goog.isObject=function(a){var b=typeof a;return b=="object"&&a!=null||b=="function"};
+goog.getUid=function(a){return Object.prototype.hasOwnProperty.call(a,goog.UID_PROPERTY_)&&a[goog.UID_PROPERTY_]||(a[goog.UID_PROPERTY_]=++goog.uidCounter_)};goog.hasUid=function(a){return!!a[goog.UID_PROPERTY_]};goog.removeUid=function(a){a!==null&&"removeAttribute"in a&&a.removeAttribute(goog.UID_PROPERTY_);try{delete a[goog.UID_PROPERTY_]}catch(b){}};goog.UID_PROPERTY_="closure_uid_"+(Math.random()*1E9>>>0);goog.uidCounter_=0;
+goog.cloneObject=function(a){var b=goog.typeOf(a);if(b=="object"||b=="array"){if(typeof a.clone==="function")return a.clone();if(typeof Map!=="undefined"&&a instanceof Map)return new Map(a);if(typeof Set!=="undefined"&&a instanceof Set)return new Set(a);b=b=="array"?[]:{};for(var c in a)b[c]=goog.cloneObject(a[c]);return b}return a};goog.bindNative_=function(a,b,c){return a.call.apply(a.bind,arguments)};
+goog.bindJs_=function(a,b,c){if(!a)throw Error();if(arguments.length>2){var d=Array.prototype.slice.call(arguments,2);return function(){var e=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(e,d);return a.apply(b,e)}}return function(){return a.apply(b,arguments)}};
+goog.bind=function(a,b,c){goog.bind=goog.TRUSTED_SITE&&goog.FEATURESET_YEAR>2012||Function.prototype.bind&&Function.prototype.bind.toString().indexOf("native code")!=-1?goog.bindNative_:goog.bindJs_;return goog.bind.apply(null,arguments)};goog.partial=function(a,b){var c=Array.prototype.slice.call(arguments,1);return function(){var d=c.slice();d.push.apply(d,arguments);return a.apply(this,d)}};goog.now=function(){return Date.now()};goog.globalEval=function(a){(0,eval)(a)};
+goog.getCssName=function(a,b){if(String(a).charAt(0)==".")throw Error('className passed in goog.getCssName must not start with ".". You passed: '+a);var c=function(e){return goog.cssNameMapping_[e]||e},d=function(e){e=e.split("-");for(var f=[],g=0;g<e.length;g++)f.push(c(e[g]));return f.join("-")};d=goog.cssNameMapping_?goog.cssNameMappingStyle_=="BY_WHOLE"?c:d:function(e){return e};a=b?a+"-"+d(b):d(a);return goog.global.CLOSURE_CSS_NAME_MAP_FN?goog.global.CLOSURE_CSS_NAME_MAP_FN(a):a};
+goog.setCssNameMapping=function(a,b){goog.cssNameMapping_=a;goog.cssNameMappingStyle_=b};goog.GetMsgOptions=function(){};goog.getMsg=function(a,b,c){c&&c.html&&(a=a.replace(/</g,"&lt;"));c&&c.unescapeHtmlEntities&&(a=a.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&apos;/g,"'").replace(/&quot;/g,'"').replace(/&amp;/g,"&"));b&&(a=a.replace(/\{\$([^}]+)}/g,function(d,e){return b!=null&&e in b?b[e]:d}));return a};goog.getMsgWithFallback=function(a){return a};
+goog.exportSymbol=function(a,b,c){goog.exportPath_(a,b,!0,c)};goog.exportProperty=function(a,b,c){a[b]=c};goog.weakUsage=function(a){return a};goog.inherits=function(a,b){function c(){}c.prototype=b.prototype;a.superClass_=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.base=function(d,e,f){for(var g=Array(arguments.length-2),k=2;k<arguments.length;k++)g[k-2]=arguments[k];return b.prototype[e].apply(d,g)}};
+goog.scope=function(a){if(goog.isInModuleLoader_())throw Error("goog.scope is not supported within a module.");a.call(goog.global)};
+goog.defineClass=function(a,b){var c=b.constructor,d=b.statics;c&&c!=Object.prototype.constructor||(c=function(){throw Error("cannot instantiate an interface (no constructor defined).");});c=goog.defineClass.createSealingConstructor_(c,a);a&&goog.inherits(c,a);delete b.constructor;delete b.statics;goog.defineClass.applyProperties_(c.prototype,b);d!=null&&(d instanceof Function?d(c):goog.defineClass.applyProperties_(c,d));return c};goog.defineClass.SEAL_CLASS_INSTANCES=goog.DEBUG;
+goog.defineClass.createSealingConstructor_=function(a){if(!goog.defineClass.SEAL_CLASS_INSTANCES)return a;var b=function(){var c=a.apply(this,arguments)||this;c[goog.UID_PROPERTY_]=c[goog.UID_PROPERTY_];return c};return b};goog.defineClass.OBJECT_PROTOTYPE_FIELDS_="constructor hasOwnProperty isPrototypeOf propertyIsEnumerable toLocaleString toString valueOf".split(" ");
+goog.defineClass.applyProperties_=function(a,b){for(var c in b)Object.prototype.hasOwnProperty.call(b,c)&&(a[c]=b[c]);for(var d=0;d<goog.defineClass.OBJECT_PROTOTYPE_FIELDS_.length;d++)c=goog.defineClass.OBJECT_PROTOTYPE_FIELDS_[d],Object.prototype.hasOwnProperty.call(b,c)&&(a[c]=b[c])};goog.identity_=function(a){return a};
+goog.createTrustedTypesPolicy=function(a){var b=null,c=goog.global.trustedTypes;if(!c||!c.createPolicy)return b;try{b=c.createPolicy(a,{createHTML:goog.identity_,createScript:goog.identity_,createScriptURL:goog.identity_})}catch(d){goog.logToConsole_(d.message)}return b};var google=window.google||{};
+google.csi=function(){function a(h){var m=g?g:document.location.href;return(h=m.match(new RegExp("[?&]"+h+"=([^&#]+)")))?h[1]:null}function b(h){window.jstiming.load.tick(h);f[h]=(new Date).getTime()}function c(){if(!l){var h=a("url")||"default",m=window.__csi||{},r=m.c||"default",v=m.v||"default",p=window.encodeURIComponent?encodeURIComponent:escape;p={gadget:p(h),container:p(r),view:p(v)};var t=window.__dflags||{},u=[];m.g&&u.push(m.g);if(m.d)for(var n in t)t[n]!=="control"&&(p[n]=t[n],t[n]==="true"&&
+u.push(n));p.e=u.join(",");n=k?k:document.location.protocol;n=e[n];window.jstiming.load.name=[r,"_",v].join("");window.jstiming.report(window.jstiming.load,p,n);(r=window.gadgets)&&r.rpc&&m.b&&(f.url=h,f.id=a("mid"),r.rpc.call(null,"time_iframe",void 0,f));l=!0}}function d(h){window.addEventListener?window.addEventListener("load",h,!1):window.attachEvent&&window.attachEvent("onload",h)}var e={"http:":"http://csi.gstatic.com/csi","https:":"https://gg.google.com/csi"},f={},g,k,l=!1,q=window.__csi||
+{};q.a?(d(function(){b("prt")}),window.onbeforeunload=function(){c()}):d(function(){b("ol");b("prt");c()});return{reset_:function(){l=!1},mockHref_:function(h){g=h},mockProtocol_:function(h){k=h},report_:c,tickPrtAndReport:function(){b("prt");c()},tickDl:function(){b("dl")}}}();
+</script><script>
+/* mp-start */
+window['___jsl']=window['___jsl']||{};
+/* mp-end */
+</script><script>window['__isgadget']=true;</script><script src="//www-sites-opensocial.googleusercontent.com/gadgets/js/core.js?container=enterprise&amp;nocache=0&amp;debug=0&amp;c=0&amp;v=4c1bd144c8b72cc7ed35f782579eae1b&amp;sv=10&amp;jsload=0"></script><script>window['___jsl'] = window['___jsl'] || {};(window['___jsl']['ci'] = (window['___jsl']['ci'] || [])).push({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});gadgets.config.init({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});
+</script><script>gadgets.Prefs.setMessages_({});gadgets.Prefs.setDefaultPrefs_({});gadgets.io.preloaded_=[];</script><link href="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/webapp/fancade.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Recoil Unblocked - Unblocked Games 911</title>
+    <meta content="" name="description">
+    <meta content="notranslate" name="google">
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+    
+    
+<script src="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/core.js" type="text/javascript"></script><style type="text/css">#button {
+  display:none;
 }
-
-.pokiSdkContainer.pokiSdkFixed {
-	position: fixed;
+.imgb_vis {
+  animation: imgb-animation 7s linear;
 }
-
-.pokiSdkContainer.pokiSdkVisible {
-	display: block;
-}
-
-.pokiSdkContainer.pokiSdkHidden,
-.pokiSdkSpinnerContainer.pokiSdkHidden {
-	display: none;
-}
-
-.pokiSdkContainer.pokiSdkHidden,
-.pokiSdkSpinnerContainer {
-	pointer-events: none;
-}
-
-.pokiSdkSpinnerContainer {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url('https://a.poki.com/images/thumb_anim_2x.gif') 50% 50% no-repeat;
-	user-select: none;
-}
-
-.pokiSdkInsideContainer {
-	background: #000;
-	position: relative;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-
-	opacity: 0;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
-}
-
-.pokiSdkContainer.pokiSdkVisible .pokiSdkInsideContainer {
-	opacity: 1;
-}
-
-.pokiSDKAdContainer, .pokiSdkVideoContainer {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-
-.pokiSdkStartAdButton {
-	position: absolute;
-	z-index: 9999;
-	top: 0;
-
-	padding-top: 10%;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #FFF;
-
-	font: 700 15pt 'Arial', sans-serif;
-	font-weight: bold;
-	letter-spacing: 1px;
-	transition: 0.1s ease-in-out;
-	line-height: 1em;
-}
-
-.pokiSdkPauseButton {
-	cursor:pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-}
-
-.pokiSdkPauseButton:before {
-	content: '';
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	display: block;
-	border: 2px solid #fff;
-	border-radius: 50%;
-	user-select: none;
-	background-color: rgba(0, 0, 0, 0.6);
-	transition: background-color 0.5s ease;
-	animation: 1s linear infinite pulse;
-}
-
-.pokiSdkPauseButton:after {
-	content: '';
-	position: absolute;
-	display: block;
-	box-sizing: border-box;
-	border-color: transparent transparent transparent #fff;
-	border-style: solid;
-	border-width: 26px 0 26px 40px;
-	pointer-events: none;
-	animation: 1s linear infinite pulse;
-	left: 6px;
-}
-.pokiSdkPauseButtonBG {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    content: '';
-    background: rgba(0, 43, 80, 0.5);
-    width: 100%;
-    height: 100%;
-}
-
-.pokiSdkPauseButtonBG:hover{
-	background: rgba(0, 43, 80, 0.7);
-}
-
-@keyframes pulse {
-	0% {
-		transform: translate(-50%, -50%) scale(0.95);
-	}
-	70% {
-		transform: translate(-50%, -50%) scale(1.1);
-	}
-	100% {
-		transform: translate(-50%, -50%) scale(0.95);
-	}
-}
-
-.pokiSdkProgressContainer {
-	background: #B8C7DD;
-	width: 100%;
-	height: 5px;
-	position: absolute;
-	bottom: 0;
-	z-index: 9999;
-}
-
-.pokiSdkProgressBar {
-	position:relative;
-	bottom:0px;
-	background: #FFDC00;
-	height: 100%;
-	width: 0%;
-	transition: width 0.5s;
-	transition-timing-function: linear;
-}
-
-.pokiSdkProgressBar.pokiSdkVisible, .pokiSdkPauseButton.pokiSdkVisible, .pokiSdkStartAdButton.pokiSdkVisible {
-	display: block;
-	pointer-events: auto;
-}
-
-.pokiSdkProgressBar.pokiSdkHidden, .pokiSdkPauseButton.pokiSdkHidden, .pokiSdkStartAdButton.pokiSdkHidden {
-	display: none;
-	pointer-events: none;
-}
-</style></head>
-
-<body id="body">
-	<div id="modal_parent">
-		<div id="modal_content"><span id="modal_close_button">×</span>
-			<div id="store_link_modal_content" class="modal_inner"></div>
-			<div id="share_file_modal_content" class="modal_inner"></div>
-		</div>
-	</div>
-	<div id="canvas_border" class="emscripten_border" style="margin-top: 0px;">
-		<div id="play_content" class="middle center" style="display: none;">
-			<div class="edge">
-				<div class="box">
-					<div class="black"><img src="webapp/cover.jpg" class="cover">
-						<p class="title">Recoil</p>
-						<p class="author">Martin Magni</p>
-					</div>
-				</div>
-			</div>
-			<div id="progress_or_play"><progress id="progress" class="loading" value="87" max="100"></progress></div>
-			<p class="description"></p>
-		</div><canvas class="emscripten" id="canvas" tabindex="-1" width="1490" height="1200" style="border-radius: 0px; width: 745px; height: 600px;"></canvas>
-		<div id="gradient" style="left: 0px; width: 745px; height: 600px; border-radius: 0px; display: none;"></div>
-		<div id="webview_content" style="left: 0px; width: 745px; height: 600px; border-radius: 0px;"></div>
-	</div>
-	<script type="text/javascript" src="webapp/source_min.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="webapp/index.js" crossorigin="anonymous"></script>
+@keyframes imgb-animation {
+  10% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(100px);
+  }
+  90% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}</style><script type="text/javascript" async="" src=""></script><script type="text/javascript" async="" src=""></script><script type="text/javascript" async="" src=""></script><script type="text/javascript" async="" src=""></script></head><body dir="ltr" id="body"><script src="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/min.js"></script>
+    <div id="modal_parent">
+        <div id="modal_content"><span id="modal_close_button"></span>
+            <div class="modal_inner" id="store_link_modal_content"></div>
+            <div class="modal_inner" id="share_file_modal_content"></div>
+        </div>
+    </div>
+    <div class="emscripten_border" id="canvas_border" style="margin-top: 0px;">
+        <div class="middle center" id="play_content" style="display: none;">
+            <div class="edge">
+                <div class="box">
+                    <div class="black"><img class="cover" src="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/webapp/cover.jpg">
+                        <p class="title">Recoil</p>
+                        <p class="author">Martin Magni</p>
+                    </div>
+                </div>
+            </div>
+            <div id="progress_or_play"><progress class="loading" id="progress" max="100" value="86"></progress></div>
+            <p class="description"></p>
+        </div><canvas class="emscripten" id="canvas" tabindex="-1" width="1630" height="652" style="border-radius: 0px; width: 815px; height: 326px;"></canvas>
+        <div id="gradient" style="left: 0px; width: 815px; height: 326px; border-radius: 0px; display: none;"></div>
+        <div id="webview_content" style="left: 0px; width: 815px; height: 326px; border-radius: 0px;"></div>
+    </div>
+    <script crossorigin="anonymous" src="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/webapp/source_min.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" src="https://275022854-836183720046385513.preview.editmysite.com/uploads/b/139890129-376454683626216828/files/webapp/index.js" type="text/javascript"></script>
+	<script src="https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/addc4348-16c2-4645-9dff-f99b962e39ef%2Fscr.js"></script>
 
 
-<div class="pokiSdkContainer pokiSdkHidden pokiSdkFixed"><div class="pokiSdkInsideContainer"><div class="pokiSdkProgressContainer pokiSdkHidden"><div class="pokiSdkProgressBar" style="width: 0%;"></div></div><video id="pokiSDKVideoContainer" class="pokiSdkVideoContainer" playsinline="playsinline" muted="muted"></video><div id="pokiSDKAdContainer" class="pokiSDKAdContainer"></div></div><div class="pokiSdkSpinnerContainer"></div><div class="pokiSdkPauseButton pokiSdkHidden"><div class="pokiSdkPauseButtonBG"></div></div><div class="pokiSdkStartAdButton pokiSdkHidden">Tap anywhere to play ad</div></div></body></html>
+<script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
+</script><div id="button" class="imgb imgb_vis" style="position: fixed; top: 10%; left: -100px; z-index: 10; display: none;"><a target="_blank" href="https://sites.google.com/view/classroom6x/" title="More of best Classroom 6x Unblocked Games"><img src="https://lh4.googleusercontent.com/lUEWrXMVEr4AdjKISyJahDRJ61bwfvHdpeYm86Djn5U8oCm9dI60NGXSBqad9HUvzTXgqlkosA_hWV-VuXPjzrkGvh3_kNSgYk8ySWzXnDpbBCBiooyBbU8oBy3YBZMDkW8RcRVmDuC0raoeqZBm8kBlqs6c5mdfkJeN2aE68lXS_lcOZ5_F7lIuM6qLVg" width="100" height="30" style="cursor:pointer;" alt="More Unblocked Games 6x"></a></div></body></html>
