@@ -1,7 +1,3 @@
-# games
-how to game:
-click on game
-click the download button 
-go to files
-press open
-game
+games!!!!
+how to game: press on the game. click the download button. go to your files. click "open" once selecting the file
+have fun
